@@ -68,7 +68,7 @@ class PaintApp:
     def __submitTool(self,x):
         self.tool=self.toolDD.get()
     def __undo(self,x=5.35):
-        items = self.canvas.find_all()
+        items=self.canvas.find_all()
         if items:
             self.canvas.delete(items[-1])
     def __colorSelect(self):
